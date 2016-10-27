@@ -1,0 +1,6 @@
+Multiple Choice attempts:
+
+\begin[attempt=5]{multipleChoice}
+\end{multipleChoice}
+
+the reactiton to hitting the maximum attempts should be dictiated by commands in the xourse file. 
