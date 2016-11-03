@@ -8,9 +8,15 @@
 \end{abstract}
 \maketitle
 
+%% Only students in a class can respond to topics, though anyone can
+%% comment.
+
+%% Picture answer is REQUIRED.
+
+%% Maybe topic owner (the person who responds first) should recieve
+%% emails when comments are made. 
 
 %% Each response is editable. 
-
 
 %% "thing-response" controls what is allowed for each topic in the
 %% forum. So max-response=2, would mean that a forum topic has at
@@ -42,8 +48,13 @@
 
 %% Voting is not complete, unless you are voting with the majority. 
 
-%% May lose history of comments - not a big deal.
-%% EG: I write a comment, with down-vote, then the answer is fixed, so I change the down-vote to an up-vote, and give a new comment. ``Nice work!''
+%% May lose history of comments - not a big deal.  EG: I write a
+%% comment, with down-vote, then the answer is fixed, so I change the
+%% down-vote to an up-vote, and give a new comment. ``Nice work!''
+
+%% We probably need some way to email/contact/alert the user if the
+%% status of a topic that they have either responded to, or commented
+%% on, changes.
 
 \begin{xorum}[max-response=1,required-answers=1,required-votes=10]
   \topic{What is $2+3$?}
